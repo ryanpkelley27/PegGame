@@ -227,7 +227,7 @@ while playing:
         game.make_move(a,b)
     else:
         seq = game.get_ai_sequence()
-        print(seq)
+        #print(seq)
         for i in range(len(seq)):
             game.make_move(seq[i][0], seq[i][1])
             game.print()
